@@ -1,0 +1,33 @@
+name: alquran
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  google_fonts: 5.0.0
+  intl: 0.17.0
+  table_calendar: 3.0.8
+  expandable_page_view: 1.0.17
+  http: 1.0.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/images/
+    - assets/icons/
+    - google_fonts/
+    - assets/model/juz1.json
+    - assets/model/listsurah.json
+    - assets/model/surah/allsurah.json
+  uses-material-design: true
+
